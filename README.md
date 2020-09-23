@@ -1,5 +1,7 @@
 # Fortify views for Bulma
 
+[![Maintainability](https://api.codeclimate.com/v1/badges/67153b6fa37b69b167fd/maintainability)](https://codeclimate.com/github/kawax/fortify-bulma/maintainability)
+
 https://bulma.io/
 
 ## Available views
