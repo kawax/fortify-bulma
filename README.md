@@ -10,10 +10,10 @@ https://bulma.io/
 - forgot-password
 - reset-password
 - verify-email
+- confirm-password
 
 ### Unavailable
 - two-factor-challenge
-- confirm-password
 
 This is an experimental package so not all views are available.
 
