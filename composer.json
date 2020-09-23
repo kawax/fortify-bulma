@@ -1,0 +1,33 @@
+{
+    "name": "revolution/fortify-bulma",
+    "description": "Laravel Fortify views for Bulma",
+    "keywords": [
+        "laravel",
+        "fortify",
+        "bulma"
+    ],
+    "license": "MIT",
+    "require": {
+        "php": "^7.3||^8.0",
+        "illuminate/support": "^8.0",
+        "laravel/fortify": "^1.4"
+    },
+    "autoload": {
+        "psr-4": {
+            "Revolution\\Fortify\\Bulma\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "kawax",
+            "email": "kawaxbiz@gmail.com"
+        }
+    ],
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Revolution\\Fortify\\Bulma\\BulmaServiceProvider"
+            ]
+        }
+    }
+}
