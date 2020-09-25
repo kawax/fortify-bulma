@@ -6,6 +6,8 @@ use Illuminate\Support\ServiceProvider;
 
 class BulmaServiceProvider extends ServiceProvider
 {
+    protected const TAG = 'fortify-bulma';
+
     /**
      * Bootstrap any application services.
      *
@@ -13,13 +15,13 @@ class BulmaServiceProvider extends ServiceProvider
      */
     public function boot()
     {
-        $this->loadViewsFrom(__DIR__.'/../views', 'fortify-bulma');
+        $this->loadViewsFrom(__DIR__.'/../views', self::TAG);
 
         $this->publishes(
             [
-                __DIR__.'/../views' => $this->app->resourcePath('views/vendor/fortify-bulma'),
+                __DIR__.'/../views' => $this->app->resourcePath('views/vendor/'.self::TAG),
             ],
-            'fortify-bulma'
+            self::TAG
         );
     }
 }
