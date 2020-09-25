@@ -17,7 +17,7 @@ class BulmaServiceProvider extends ServiceProvider
 
         $this->publishes(
             [
-                __DIR__.'/../views' => resource_path('views/vendor/fortify-bulma'),
+                __DIR__.'/../views' => $this->app->resourcePath('views/vendor/fortify-bulma'),
             ],
             'fortify-bulma'
         );
