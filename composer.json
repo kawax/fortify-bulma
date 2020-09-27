@@ -29,5 +29,8 @@
                 "Revolution\\Fortify\\Bulma\\BulmaServiceProvider"
             ]
         }
+    },
+    "suggest": {
+        "revolution/laravel-pagination-bulma": "Pagination views."
     }
 }
